@@ -13,7 +13,7 @@ spec:
        spec:
          containers:
          - name: py-demo
-           image: docker.io/Shreyas1717/web-app
+           image: docker.io/shreyas1717/web-app:latest
            ports:
            - containerPort: 5000
              hostPort: 8081
